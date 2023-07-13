@@ -1,5 +1,6 @@
 from pydantic import BaseSettings
 
+
 class Settings(BaseSettings):
     REDIS_DB_URL: str
     REDIS_DB_PORT: int
